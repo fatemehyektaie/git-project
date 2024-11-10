@@ -1,12 +1,18 @@
-body {
-  display: flex;
-  flex-direction: row;
+* {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.nav {
   height: 500px;
   width: 500px;
   border: 1px solid #bdbbbb;
@@ -14,7 +20,4 @@ body {
   padding: 3rem;
   text-align: center;
   background-color: #bdbbbb;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
